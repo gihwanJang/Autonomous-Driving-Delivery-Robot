@@ -1,0 +1,8 @@
+prefix=/home/jetson/Self-Driving-Delivery-Robot/devel/.private/theora_image_transport
+
+Name: theora_image_transport
+Description: Description of theora_image_transport
+Version: 1.9.5
+Cflags: -I/home/jetson/Self-Driving-Delivery-Robot/devel/.private/theora_image_transport/include -I/home/jetson/Self-Driving-Delivery-Robot/src/utils/image_transport_plugins/theora_image_transport/include
+Libs: -L${prefix}/lib -ltheora_image_transport
+Requires: message_runtime std_msgs

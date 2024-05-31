@@ -1,0 +1,28 @@
+\subsubsection usage Usage
+\verbatim
+<node name="gpu_stereo_image_proc" pkg="gpu_stereo_image_proc" type="gpu_stereo_image_proc">
+  <param name="shrink_scale" type="int" value="1" />
+  <param name="correlation_window_size" type="int" value="5" />
+  <param name="bt_clip_value" type="int" value="31" />
+  <param name="ct_win_size" type="int" value="0" />
+  <param name="hc_win_size" type="int" value="0" />
+  <param name="min_disparity" type="int" value="0" />
+  <param name="max_disparity" type="int" value="64" />
+  <param name="SCANLINE_LEFT_RIGHT" type="bool" value="True" />
+  <param name="SCANLINE_TOP_LEFT_BOTTOM_RIGHT" type="bool" value="True" />
+  <param name="SCANLINE_TOP_BOTTOM" type="bool" value="True" />
+  <param name="SCANLINE_TOP_RIGHT_BOTTOM_LEFT" type="bool" value="True" />
+  <param name="SCANLINE_RIGHT_LEFT" type="bool" value="True" />
+  <param name="SCANLINE_BOTTOM_RIGHT_TOP_LEFT" type="bool" value="True" />
+  <param name="SCANLINE_BOTTOM_TOP" type="bool" value="True" />
+  <param name="SCANLINE_BOTTOM_LEFT_TOP_RIGHT" type="bool" value="True" />
+  <param name="path_type" type="int" value="2" />
+  <param name="FILTER_TOP_AREA" type="bool" value="False" />
+  <param name="PYRAMIDAL_STEREO" type="bool" value="False" />
+  <param name="uniqueness_ratio" type="double" value="15.0" />
+  <param name="P1" type="double" value="8.0" />
+  <param name="P2" type="double" value="109.0" />
+  <param name="disp12MaxDiff" type="int" value="320" />
+</node>
+\endverbatim
+

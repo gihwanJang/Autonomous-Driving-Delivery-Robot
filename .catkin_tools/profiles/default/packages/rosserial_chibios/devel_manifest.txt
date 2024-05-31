@@ -1,0 +1,5 @@
+utils/rosserial/rosserial_chibios
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_chibios/cmake.lock /home/jetson/Self-Driving-Delivery-Robot/devel/./cmake.lock
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_chibios/lib/pkgconfig/rosserial_chibios.pc /home/jetson/Self-Driving-Delivery-Robot/devel/lib/pkgconfig/rosserial_chibios.pc

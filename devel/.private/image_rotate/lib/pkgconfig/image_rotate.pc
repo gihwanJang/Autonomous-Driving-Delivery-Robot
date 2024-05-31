@@ -1,0 +1,8 @@
+prefix=/home/jetson/Self-Driving-Delivery-Robot/devel/.private/image_rotate
+
+Name: image_rotate
+Description: Description of image_rotate
+Version: 1.15.2
+Cflags: -I/home/jetson/Self-Driving-Delivery-Robot/devel/.private/image_rotate/include
+Libs: -L${prefix}/lib 
+Requires: 

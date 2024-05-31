@@ -1,0 +1,1 @@
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/mpu_6050_driver/lib/pkgconfig/mpu_6050_driver.pc

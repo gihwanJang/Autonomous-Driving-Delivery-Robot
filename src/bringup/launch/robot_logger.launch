@@ -1,0 +1,8 @@
+
+<launch>
+  <arg name="robot_code" default="RBT-000000000001" />
+
+  <node pkg="bringup" type="robot_logger" name="robot_logger">
+    <param name="robot_code" value="$(arg robot_code)"/>
+  </node>
+</launch>

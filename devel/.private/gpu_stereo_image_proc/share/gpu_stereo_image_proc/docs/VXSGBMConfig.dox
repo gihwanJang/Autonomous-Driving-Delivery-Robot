@@ -1,0 +1,27 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~shrink_scale" : \b [int] Image size will be shrinked by this factor. Must be a power of 2. min: 1, default: 1, max: 64
+- \b "~correlation_window_size" : \b [int] SAD correlation window width, pixels min: 5, default: 5, max: 31
+- \b "~bt_clip_value" : \b [int] Truncation value (must be odd) for pre-filtering algorithm. It first computes x-derivative at each pixel and clips its value to [-bt_clip_value, bt_clip_value] interval. min: 15, default: 31, max: 95
+- \b "~ct_win_size" : \b [int] Specifies the census transform window size min: 0, default: 0, max: 31
+- \b "~hc_win_size" : \b [int] Specifies the hamming cost window size min: 0, default: 0, max: 31
+- \b "~min_disparity" : \b [int] Disparity to begin search at, pixels min: 0, default: 0, max: 256
+- \b "~max_disparity" : \b [int] Disparity to finish search at, pixels (Must be divisible by 4) min: 0, default: 64, max: 256
+- \b "~SCANLINE_LEFT_RIGHT" : \b [bool] Aggregate cost from left to right horizontally min: False, default: True, max: True
+- \b "~SCANLINE_TOP_LEFT_BOTTOM_RIGHT" : \b [bool] Aggregate cost from left to right diagonally starting from the top min: False, default: True, max: True
+- \b "~SCANLINE_TOP_BOTTOM" : \b [bool] Aggregate cost from top to bottom vertically min: False, default: True, max: True
+- \b "~SCANLINE_TOP_RIGHT_BOTTOM_LEFT" : \b [bool] Aggregate cost from right to left diagonally starting from the top min: False, default: True, max: True
+- \b "~SCANLINE_RIGHT_LEFT" : \b [bool] Aggregate cost from right to left horizontally min: False, default: True, max: True
+- \b "~SCANLINE_BOTTOM_RIGHT_TOP_LEFT" : \b [bool] Aggregate cost from right to left diagonally starting from the bottom min: False, default: True, max: True
+- \b "~SCANLINE_BOTTOM_TOP" : \b [bool] Aggregate cost from bottom to top vertically min: False, default: True, max: True
+- \b "~SCANLINE_BOTTOM_LEFT_TOP_RIGHT" : \b [bool] Aggregate cost from left to right diagonally starting from the bottom min: False, default: True, max: True
+- \b "~path_type" : \b [int] Scan path type min: 0, default: 2, max: 2
+- \b "~FILTER_TOP_AREA" : \b [bool] Filter cost at top image area with low gradients. min: False, default: False, max: True
+- \b "~PYRAMIDAL_STEREO" : \b [bool] Use pyramidal scheme: lower resolution imagery for nearby objects and the full resolution for far-away objects. min: False, default: False, max: True
+- \b "~uniqueness_ratio" : \b [double] Filter out if best match does not sufficiently exceed the next-best match min: 0.0, default: 15.0, max: 100.0
+- \b "~P1" : \b [double] Smoothness penalty min: 0.0, default: 8.0, max: 256.0
+- \b "~P2" : \b [double] Discontiguous pennalty min: 0.0, default: 109.0, max: 256.0
+- \b "~disp12MaxDiff" : \b [int] Maximum allowed difference (in integer pixel units) in the left-right disparity check, only available in SGBM min: 0, default: 320, max: 32000
+

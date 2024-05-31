@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/Self-Driving-Delivery-Robot/devel/.private/depth_image_proc/setup.sh

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/Self-Driving-Delivery-Robot/devel/.private/jetson_csi_stereo_ros/setup.sh

@@ -1,0 +1,5 @@
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/libSGM/lib/libsgm.so
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/libSGM/include/libsgm_wrapper.h
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/libSGM/include/libsgm_config.h
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/libSGM/include/libsgm.h
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/libSGM/FindLibSGM.cmake

@@ -1,0 +1,45 @@
+[submodule "darknet_ros"]
+	path = src/darknet_ros
+	url = https://github.com/leggedrobotics/darknet_ros
+	branch = master
+
+[submodule "image_pipeline"]
+	path = src/utils/image_pipeline
+	url = https://github.com/ros-perception/image_pipeline
+	branch = melodic
+
+[submodule "vision_opencv"]
+	path = src/utils/vision_opencv
+	url = https://github.com/fizyr-forks/vision_opencv.git
+	branch = opencv4
+
+[submodule "image_trasport_plugins"]
+	path = src/utils/image_transport_plugins
+	url = https://github.com/ros-perception/image_transport_plugins.git
+	brnach = indigo-devel
+
+[submodule "gscam"]
+	path = src/utils/gscam
+	url = https://github.com/ros-drivers/gscam.git
+
+[submodule "rqt_image_view"]
+	path = src/utils/rqt_image_view
+	url = https://github.com/ros-visualization/rqt_image_view.git
+
+[submodule "gpu_stereo_image_proc"]
+	path = src/utils/gpu_stereo_image_proc
+	url = https://github.com/whill-labs/gpu_stereo_image_proc.git
+	branch = melodic-devel
+
+[submodule "robot_upstart"]
+	path = src/utils/robot_upstart
+	url = https://github.com/clearpathrobotics/robot_upstart.git
+	branch = melodic-devel
+
+[submodule "mpu_6050_driver"]
+	path = src/utils/mpu_6050_driver
+	url = https://github.com/OSUrobotics/mpu_6050_driver.git
+
+[submodule "jetson_csi_stereo_ros"]
+	path = src/utils/jetson_csi_stereo_ros
+	url = https://github.com/borongyuan/jetson_csi_stereo_ros.git

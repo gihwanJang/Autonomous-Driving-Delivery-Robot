@@ -1,0 +1,72 @@
+#!/usr/bin/env python2
+import rospy
+import requests
+from sensor_msgs.msg import NavSatFix
+from std_msgs.msg import String
+import json
+import math
+import warnings
+
+warnings.filterwarnings("ignore")
+
+def is_nan(value):
+    return math.isnan(value)
+
+def callback(data):
+    if is_nan(data.latitude) or is_nan(data.longitude):
+        return
+
+    url = "https://delibot.kro.kr/robot/insertRobotLog"
+    payload = {
+        'latitude': data.latitude,
+        'longitude': data.longitude
+    }
+    headers = {'Content-Type': 'application/json'}
+
+    try:
+        response = requests.post(url, json=payload, headers=headers, verify=False)
+        response.raise_for_status()
+        rospy.loginfo("Data sent successfully!")
+    except requests.exceptions.RequestException as e:
+        rospy.logerr("Failed to send data: %s", str(e))
+
+def get_goal(robot_code):
+    url = "https://delibot.kro.kr/robot/getRobotGoal"
+    payload = {'robotCode': robot_code}
+    headers = {'Content-Type': 'application/json'}
+
+    try:
+        response = requests.post(url, json=payload, headers=headers, verify=False)
+        response.raise_for_status()
+        data = response.json()
+        if data["resultCode"] == 200:
+            goal = data["result"][0]
+            latitude = float(goal["goalLatitude"])
+            longitude = float(goal["goalLongitude"])
+            navsatfix_msg = NavSatFix()
+            navsatfix_msg.latitude = latitude
+            navsatfix_msg.longitude = longitude
+            return navsatfix_msg
+        else:
+            rospy.logerr("Failed to get robot goal: %s", data["resultMsg"])
+            return None
+    except requests.exceptions.RequestException as e:
+        rospy.logerr("Failed to get robot goal: %s", str(e))
+        return None
+
+def listener():
+    rospy.init_node('listener', anonymous=True)
+    rospy.Subscriber("/fix", NavSatFix, callback)
+    pub = rospy.Publisher('/goal', NavSatFix, queue_size=10)
+    rate = rospy.Rate(0.2)
+
+    robot_code = rospy.get_param("~robot_code", "RBT-000000000001")
+
+    while not rospy.is_shutdown():
+        goal = get_goal(robot_code)
+        if goal:
+            pub.publish(goal)
+        rate.sleep()
+
+if __name__ == '__main__':
+    listener()

@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~min_disparity" : \b [int] Disparity to begin search at, pixels (may be negative) min: -2048, default: 0, max: 2048
+- \b "~disparity_range" : \b [int] Number of disparities to search, pixels min: 64, default: 128, max: 256
+- \b "~uniqueness_ratio" : \b [double] Filter out if best match does not sufficiently exceed the next-best match min: 0.0, default: 15.0, max: 100.0
+- \b "~path_type" : \b [int] Scan line directions used during cost aggregation step min: 0, default: 1, max: 1
+- \b "~P1" : \b [double] Smoothness penalty min: 0.0, default: 10.0, max: 256.0
+- \b "~P2" : \b [double] Discontiguous pennalty min: 0.0, default: 120.0, max: 256.0
+

@@ -1,0 +1,1 @@
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/mpu_6050_driver/share/mpu_6050_driver/cmake/mpu_6050_driverConfig.cmake

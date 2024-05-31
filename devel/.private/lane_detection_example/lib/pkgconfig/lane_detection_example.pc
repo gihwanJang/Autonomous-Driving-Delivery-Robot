@@ -1,0 +1,8 @@
+prefix=/home/jetson/Self-Driving-Delivery-Robot/devel/.private/lane_detection_example
+
+Name: lane_detection_example
+Description: Description of lane_detection_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

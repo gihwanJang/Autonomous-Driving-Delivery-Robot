@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/CMakeFiles/ext-libSGM"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/CMakeFiles/ext-libSGM.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/CMakeFiles/ext-libSGM-complete.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-build.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-configure.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-download.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-install.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-mkdir.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-patch.rule"
+		},
+		{
+			"file" : "/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext-libSGM"
+		],
+		"name" : "ext-libSGM"
+	}
+}

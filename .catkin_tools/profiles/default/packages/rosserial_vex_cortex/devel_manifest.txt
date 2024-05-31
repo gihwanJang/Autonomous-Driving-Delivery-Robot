@@ -1,0 +1,6 @@
+utils/rosserial/rosserial_vex_cortex
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_vex_cortex/cmake.lock /home/jetson/Self-Driving-Delivery-Robot/devel/./cmake.lock
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_vex_cortex/share/rosserial_vex_cortex/cmake/rosserial_vex_cortexConfig.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_vex_cortex/cmake/rosserial_vex_cortexConfig.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_vex_cortex/share/rosserial_vex_cortex/cmake/rosserial_vex_cortexConfig-version.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_vex_cortex/cmake/rosserial_vex_cortexConfig-version.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_vex_cortex/lib/python2.7/dist-packages/rosserial_vex_cortex/__init__.py /home/jetson/Self-Driving-Delivery-Robot/devel/lib/python2.7/dist-packages/rosserial_vex_cortex/__init__.py
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_vex_cortex/lib/pkgconfig/rosserial_vex_cortex.pc /home/jetson/Self-Driving-Delivery-Robot/devel/lib/pkgconfig/rosserial_vex_cortex.pc

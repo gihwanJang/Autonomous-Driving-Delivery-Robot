@@ -1,0 +1,13 @@
+# Target labels
+ ext-libSGM
+# Source files and their labels
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/CMakeFiles/ext-libSGM
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/CMakeFiles/ext-libSGM.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/CMakeFiles/ext-libSGM-complete.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-build.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-configure.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-download.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-install.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-mkdir.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-patch.rule
+/home/jetson/Self-Driving-Delivery-Robot/build/gpu_stereo_image_proc/ext/libSGM/src/ext-libSGM-stamp/ext-libSGM-update.rule

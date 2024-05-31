@@ -1,0 +1,8 @@
+prefix=/home/jetson/Self-Driving-Delivery-Robot/devel/.private/robot_upstart
+
+Name: robot_upstart
+Description: Description of robot_upstart
+Version: 0.3.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

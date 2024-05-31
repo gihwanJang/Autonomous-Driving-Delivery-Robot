@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>teleop</name>
+  <version>1.0.0</version>
+  <description>teleoperation device using keyboard</description>
+  <maintainer email="addps5012@kakao.com">SeongYong Jang</maintainer>
+  <license>MIT</license>
+  <url type="website">https://github.com/growJ-Developer</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+</package>

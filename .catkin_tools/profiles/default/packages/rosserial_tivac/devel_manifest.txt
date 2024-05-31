@@ -1,0 +1,6 @@
+utils/rosserial/rosserial_tivac
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_tivac/cmake.lock /home/jetson/Self-Driving-Delivery-Robot/devel/./cmake.lock
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_tivac/share/rosserial_tivac/cmake/rosserial_tivacConfig-version.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_tivac/cmake/rosserial_tivacConfig-version.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_tivac/share/rosserial_tivac/cmake/rosserial_tivacConfig.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_tivac/cmake/rosserial_tivacConfig.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_tivac/share/rosserial_tivac/cmake/rosserial_tivac-extras.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/rosserial_tivac/cmake/rosserial_tivac-extras.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/rosserial_tivac/lib/pkgconfig/rosserial_tivac.pc /home/jetson/Self-Driving-Delivery-Robot/devel/lib/pkgconfig/rosserial_tivac.pc

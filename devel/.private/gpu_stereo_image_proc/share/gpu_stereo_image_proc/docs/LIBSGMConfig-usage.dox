@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="gpu_stereo_image_proc" pkg="gpu_stereo_image_proc" type="gpu_stereo_image_proc">
+  <param name="min_disparity" type="int" value="0" />
+  <param name="disparity_range" type="int" value="128" />
+  <param name="uniqueness_ratio" type="double" value="15.0" />
+  <param name="path_type" type="int" value="1" />
+  <param name="P1" type="double" value="10.0" />
+  <param name="P2" type="double" value="120.0" />
+</node>
+\endverbatim
+

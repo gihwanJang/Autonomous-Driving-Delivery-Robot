@@ -1,0 +1,8 @@
+prefix=/home/jetson/Self-Driving-Delivery-Robot/devel/.private/bringup
+
+Name: bringup
+Description: Description of bringup
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy roscpp std_msgs geometry_msgs message_generation

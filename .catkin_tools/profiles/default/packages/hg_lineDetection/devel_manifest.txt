@@ -1,0 +1,5 @@
+hg_lineDetection
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/hg_lineDetection/cmake.lock /home/jetson/Self-Driving-Delivery-Robot/devel/./cmake.lock
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/hg_lineDetection/share/hg_lineDetection/cmake/hg_lineDetectionConfig.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/hg_lineDetection/cmake/hg_lineDetectionConfig.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/hg_lineDetection/share/hg_lineDetection/cmake/hg_lineDetectionConfig-version.cmake /home/jetson/Self-Driving-Delivery-Robot/devel/share/hg_lineDetection/cmake/hg_lineDetectionConfig-version.cmake
+/home/jetson/Self-Driving-Delivery-Robot/devel/.private/hg_lineDetection/lib/pkgconfig/hg_lineDetection.pc /home/jetson/Self-Driving-Delivery-Robot/devel/lib/pkgconfig/hg_lineDetection.pc
